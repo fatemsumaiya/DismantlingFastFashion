@@ -1,0 +1,143 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+
+.navContainer {
+  margin:0;
+  top: 0%;
+  padding-top: 40px;
+  padding-left: 800px;
+  padding-right: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.container1 {
+  background-color: black;
+  background-image: url("../mainPic.png");
+  background-size: cover;
+  padding-bottom: 320px;
+}
+
+
+.navContainer a {
+  color: white;
+  text-decoration: none;
+}
+
+#mainHeader {
+  color: #F7F600;
+  padding-top: 200px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+#toggleButton {
+  background-color: #F7F600;
+  border: none;
+  border-radius: 5px;
+}
+
+.light-mode-action {
+  background-color: #0C0D0D;
+  color: white;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-left: 270px;
+  text-align: left;
+  font-size: 20px;
+}
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 270px;
+  padding-right: 250px;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+}
+.bullet {
+  padding-left: 270px;
+  padding-right: 250px;
+  font-size: 17px;
+  padding-bottom: 15px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+img:hover {
+  width: 350px;
+  height: 250px;
+  border-color: black;
+}
+
+.Image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 80px;
+
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  padding-left: 275px;
+}
+.form-container button[type="button"] {
+    display: block;
+    width: 100%;
+    margin-top: 10px; /* Adjust as needed */
+    /* Add any other styling you need */
+}
+
+#ee {
+  padding-left: 270px;
+  padding-right: 250px;
+  font-size: 17px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+
+.yerr{
+  padding-bottom: 100px;
+}
+
+p a {
+  color: cadetblue;
+}
+
+p a:hover {
+  color: saddlebrown;
+}
+
+p a:visited {
+  color: rosybrown;
+}
+
+
+
